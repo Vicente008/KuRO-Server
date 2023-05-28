@@ -4399,7 +4399,10 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.AL_DEMONBANE, 5 }
+		}
 	},
 	[SKID.EL_WATER_SCREEN] = {
 		"EL_WATER_SCREEN",
@@ -5327,7 +5330,7 @@ SKILL_INFO_LIST = {
 		"SM_PROVOKE",
 		SkillName = "Provoke",
 		MaxLv = 10,
-		SpAmount = { 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 },
+		SpAmount = { 4, 5, 6, 7, 8, 10, 12, 14, 16, 20 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
@@ -5976,7 +5979,7 @@ SKILL_INFO_LIST = {
 		"SM_ENDURE",
 		SkillName = "Endure",
 		MaxLv = 10,
-		SpAmount = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
+		SpAmount = { 8, 9, 11, 12, 14, 15, 17, 18, 20, 21 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -8251,7 +8254,6 @@ SKILL_INFO_LIST = {
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.PR_MACEMASTERY, 5 },
-			{ SKID.AL_DEMONBANE, 5 },
 			{ SKID.AL_DP, 5 }
 		}
 	},
@@ -11411,7 +11413,7 @@ SKILL_INFO_LIST = {
 		"SM_SHIELD",
 		SkillName = "Shield Tackle",
 		MaxLv = 10,
-		SpAmount = { 8, 8, 8, 8, 8, 15, 15, 15, 15, 15 },
+		SpAmount = { 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 },
 		bSeperateLv = true,
 		AttackRange = { 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 }
 	},
