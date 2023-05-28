@@ -1411,7 +1411,7 @@ SKILL_DESCRIPT = {
 		"according to the caster's ^CC6600STR^777777.",
 		"When cast, the weapon can no longer",
 		"be replaced.^000000",
-		"[Lv 1]: ^777777ATK 140%^000000",
+		"[Lv 1]: ^777777140% Damage of Bash^000000",
 		"[Lv 2]: ^777777ATK 180%^000000",
 		"[Lv 3]: ^777777ATK 220%^000000",
 		"[Lv 4]: ^777777ATK 260%^000000",
