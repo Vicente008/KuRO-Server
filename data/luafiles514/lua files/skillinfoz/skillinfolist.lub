@@ -10577,7 +10577,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_RANG] = {
 		"ALL_RANG",
-		SkillName = "Hound"
+		SkillName = "Hound",
 		MaxLv = 7,
 		SpAmount = { 0,0,0,0,0,0},
 		bSeperateLv = false,
