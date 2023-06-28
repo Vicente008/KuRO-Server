@@ -4082,6 +4082,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777Critical +30, FLEE +20,",
 		"Duration: 300 seconds^000000"
 	},
+	
 	[SKID.MO_IRONHAND] = {
 		"Iron Hand",
 		"Max Level: 10",
@@ -4090,7 +4091,9 @@ SKILL_DESCRIPT = {
 		"Mace Mastery 5^000000",
 		"Skill Form: ^6666CCPassive^000000",
 		"Description: ^777777Increases damage with ^990099Bare",
-		"Hands^777777 and ^990099Knuckle^777777 class weapons.^000000",
+		"Hands^777777 and ^990099Knuckle^777777 class ^CC6600Weapon Atk^777777 and",
+		"Basic Attacks. Character level affects Basic",
+		"Attacks bonus.^000000",,
 		"[Lv 1]: ^777777Damage +3^000000",
 		"[Lv 2]: ^777777Damage +6^000000",
 		"[Lv 3]: ^777777Damage +9^000000",
@@ -6240,18 +6243,18 @@ SKILL_DESCRIPT = {
 		"Max Level: 5",
 		"^CC3399Requirement: Grand Cross 10^000000",
 		"Skill Form: ^6666CCPassive^000000",
-		"Description: ^777777Every 100 points of ^CC6600MaxHP^777777 above 5,000 ",
+		"Description: ^777777Every 100 points of ^CC6600MaxHP^777777 above 7,000 ",
 		"will increase damage dealt with Grand Cross. But damage",
 		"reduction is decreased towards the caster.^000000",
-		"[Lv 1]: ^777777 +5% damage every 250 points above 6000",
+		"[Lv 1]: ^777777 +5% damage every 250 points above 7000",
 		"caster receive 33% of damage.^000000",
-		"[Lv 2]: ^777777 +6% damage every 250 points above 6000",
+		"[Lv 2]: ^777777 +6% damage every 250 points above 7000",
 		"caster receive 36% of damage.^000000",
-		"[Lv 3]: ^777777 +7% damage every 250 points above 6000", 
+		"[Lv 3]: ^777777 +7% damage every 250 points above 7000", 
 		"caster receive 39% of damage.^000000",
-		"[Lv 4]: ^777777 +8% damage every 250 points above 6000", 
+		"[Lv 4]: ^777777 +8% damage every 250 points above 7000", 
 		"caster receive 42% of damage.^000000",
-		"[Lv 5]: ^777777 +9% damage every 250 points above 6000",
+		"[Lv 5]: ^777777 +9% damage every 250 points above 7000",
 		"caster receive 45% of damage.^000000"
 	},
 	[SKID.CH_PALMSTRIKE] = {
